@@ -3,6 +3,6 @@ import {PLATFORM} from 'aurelia-pal';
 
 export function configure(config: FrameworkConfiguration): void {
   config.globalResources([
-    PLATFORM.moduleName('./elements/radio-button/radio-button')
+    PLATFORM.moduleName('./elements/mh-radio-button/mh-radio-button')
   ]);
 }

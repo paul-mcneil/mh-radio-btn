@@ -1,7 +1,7 @@
 import { bindable, bindingMode, TaskQueue, autoinject } from 'aurelia-framework';
 
 @autoinject
-export class RadioButton {
+export class MhRadioButton {
     @bindable({defaultBindingMode: bindingMode.twoWay}) private value: any;
     @bindable private model: any;
     @bindable private label: string;
